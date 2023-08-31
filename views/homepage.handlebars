@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Homepage</title>
+  <!--https://fonts.google.com/specimen/Roboto-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/assets/img/logo.png"/>
+  <link rel="stylesheet" type="text/css" href="/assets/style.css"/>
+</head>
+<body>
+  <nav><a href="/home"><img id="logo" src="/assets/img/logo.png" alt="logo"/></a>
+    <header id="header"></header>
+  </nav>
+  <section id="search"></section>
+
+  <section id="info">
+
+  </section>
+  <section id="songs">
+    <h3 id="searchAlert" class="hidden">Searching...</h3>
+    <div id="display"></div>
+  </section>
+
+  <div id="songMessage" class='hidden'>
+    <h3><span id="errorMessage"></span></h3>
+  </div>
+  
+  <script src="/assets/homepageBundle.js"></script>
+</body>
+</html>
